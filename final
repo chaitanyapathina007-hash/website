@@ -1,1 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Universal Bio Hair Transplantation — advanced hair restoration and skin care in Rajamahendravaram.">
+<title>Universal Bio Hair Transplantation | Premium Hair & Skin Clinic</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--orange:#e76f24;--orange2:#ff9a52;--cream:#fffaf5;--soft:#fff0e3;--ink:#241912;--muted:#756a62;--white:#fff;--line:#eaded3;--dark:#21150f;--gold:#c99345;--shadow:0 24px 70px rgba(53,31,16,.13)}
+*{box-sizing:border-box;margin:0;padding:0;scroll-behavior:smooth}
+body{font-family:"DM Sans",Arial,sans-serif;color:var(--ink);background:var(--cream);line-height:1.65}
+h1,h2,h3{font-family:"Playfair Display",Georgia,serif;line-height:1.12}
+a{text-decoration:none;color:inherit}
+.container{width:min(1180px,92%);margin:auto}
+.topbar{background:var(--dark);color:#fff;font-size:12px;padding:8px 0}
+.topbar .in{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.nav{position:sticky;top:0;z-index:100;background:rgba(255,250,245,.94);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+.navin{height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:11px;font-weight:800}
+.logoIcon{width:48px;height:48px;border-radius:15px;background:linear-gradient(145deg,var(--orange),#b84a13);display:grid;place-items:center;color:#fff;position:relative;box-shadow:0 10px 24px rgba(231,111,36,.22)}
+.logoIcon:before{content:"";width:20px;height:28px;border:2px solid #fff;border-radius:50% 50% 45% 45%;transform:rotate(22deg);position:absolute}
+.logoIcon:after{content:"";width:2px;height:28px;background:#fff;transform:rotate(22deg);position:absolute}
+.logoText{font-size:15px;letter-spacing:.2px}.logoText small{display:block;color:var(--orange);font-size:9px;letter-spacing:1.8px;text-transform:uppercase}
+.links{display:flex;gap:24px;font-size:13px;font-weight:700}.links a:hover{color:var(--orange)}
+.btn{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--orange);background:var(--orange);color:#fff;padding:13px 20px;border-radius:999px;font-weight:700;box-shadow:0 12px 26px rgba(231,111,36,.2);transition:.2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.light{background:#fff;color:var(--orange);box-shadow:none}
+.menu{display:none;border:0;background:none;font-size:26px}
+.hero{min-height:720px;display:flex;align-items:center;position:relative;overflow:hidden;background:radial-gradient(circle at 85% 20%,#ffd9bd 0 11%,transparent 30%),linear-gradient(120deg,#fffaf5,#fff 50%,#fff0e3)}
+.hero:before{content:"";position:absolute;width:650px;height:650px;border-radius:50%;border:1px solid rgba(231,111,36,.12);right:-240px;bottom:-280px}
+.heroGrid{display:grid;grid-template-columns:1.02fr .98fr;gap:65px;align-items:center;position:relative;z-index:1}
+.eyebrow{font-size:12px;font-weight:800;letter-spacing:2.4px;text-transform:uppercase;color:var(--orange);margin-bottom:17px}
+.hero h1{font-size:clamp(48px,6vw,80px);max-width:700px}
+.hero h1 em{font-style:normal;color:var(--orange)}
+.hero p{font-size:18px;color:var(--muted);max-width:650px;margin-top:20px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}
+.trust{display:flex;gap:30px;flex-wrap:wrap;margin-top:24px}
+.trust b{font-family:"Playfair Display";font-size:27px;display:block}.trust span{font-size:11px;color:var(--muted)}
+.heroVisual{height:540px;border-radius:36px;overflow:hidden;position:relative;box-shadow:var(--shadow);background-image:linear-gradient(135deg,rgba(30,17,10,.18),rgba(231,111,36,.12)),url("image1.jpg");background-size:cover;background-position:center}
+.heroVisual .glass{position:absolute;left:22px;right:22px;bottom:22px;padding:20px;border-radius:23px;color:#fff;background:rgba(25,16,11,.52);backdrop-filter:blur(15px);border:1px solid rgba(255,255,255,.2)}
+.glass h3{font-size:26px}.glass p{font-size:12px;color:#f6e8dd;margin-top:5px}
+.floating{position:absolute;top:22px;right:22px;background:#fff;border-radius:18px;padding:13px 15px;font-size:11px;font-weight:800;box-shadow:0 12px 35px rgba(0,0,0,.12)}
+section{padding:92px 0}.sectionHead{display:flex;justify-content:space-between;gap:35px;align-items:end;margin-bottom:35px}.sectionHead p{max-width:590px;color:var(--muted)}
+.kicker{color:var(--orange);font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase;margin-bottom:9px}
+h2{font-size:clamp(34px,4vw,52px)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.stat{background:#fff;border:1px solid var(--line);border-radius:22px;padding:28px;text-align:center}.stat b{display:block;color:var(--orange);font:700 36px "Playfair Display"}
+.dark{background:var(--dark);color:#fff}.dark .sectionHead p{color:#d8c9be}
+.highlights{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.hcard{padding:27px;border-radius:23px;background:#2d2019;border:1px solid #46342a}.hcard .num{color:var(--orange2);font-size:12px;font-weight:800}.hcard h3{font-size:25px;margin:9px 0}.hcard p{font-size:13px;color:#d9cbc1}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.service{background:#fff;border:1px solid var(--line);border-radius:25px;overflow:hidden;box-shadow:0 8px 30px rgba(50,30,15,.05)}
+.photo{height:210px;background-size:cover;background-position:center;position:relative}.photo:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(0,0,0,.52))}
+.photoLabel{position:absolute;z-index:2;left:17px;bottom:15px;color:#fff;font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase}
+.serviceBody{padding:23px}.serviceBody h3{font-size:26px}.serviceBody p{color:var(--muted);font-size:13px;margin:8px 0 17px}.mini{font-size:12px;color:var(--orange);font-weight:800}
+.detailSection{scroll-margin-top:100px;margin-top:80px;padding-top:10px}.detailGrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.detail{background:#fff;border:1px solid var(--line);border-radius:22px;padding:25px}.detail h3{font-size:24px;margin-bottom:12px}.detail ul{padding-left:19px;color:var(--muted);font-size:14px}.detail li{margin:7px 0}
+.diet{background:#fff6ed;border:1px solid #efd4bd;border-radius:22px;padding:25px;margin-top:18px;overflow:auto}.diet table{width:100%;border-collapse:collapse;font-size:13px}.diet th,.diet td{padding:10px;text-align:left;border-bottom:1px solid #ead8c9}.diet th{color:var(--orange)}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.gallery figure{margin:0;border-radius:20px;overflow:hidden;background:#fff;border:1px solid var(--line)}.gallery img{width:100%;height:220px;object-fit:cover;display:block}.gallery figcaption{padding:11px 13px;font-size:12px;font-weight:700}
+.contact{background:linear-gradient(135deg,#fff0e3,#fffaf5)}.contactGrid{display:grid;grid-template-columns:.85fr 1.15fr;gap:35px}.contactCard{background:var(--dark);color:#fff;border-radius:30px;padding:32px}.contactCard p{color:#d8cbc3;font-size:14px;margin:12px 0 22px}.contactLine{padding:14px 0;border-bottom:1px solid #49372d;font-size:14px}.contactLine b{display:block;color:#fff}.map{width:100%;height:420px;border:0;border-radius:26px;box-shadow:var(--shadow)}
+.form{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:20px}.form input,.form textarea,.form select{width:100%;border:1px solid var(--line);background:#fff;border-radius:13px;padding:14px;font:inherit}.form textarea{grid-column:1/-1;min-height:120px}.full{grid-column:1/-1}
+.floatWA{position:fixed;right:22px;bottom:22px;z-index:90;width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:#25d366;color:#fff;font-size:28px;box-shadow:0 15px 35px rgba(0,0,0,.2)}
+footer{background:#170e0a;color:#d9cbc1;padding:32px 0;font-size:12px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.note{font-size:11px;color:#8a786c;margin-top:12px}
+@media(max-width:980px){.links{display:none}.menu{display:block}.heroGrid,.contactGrid,.detailGrid{grid-template-columns:1fr}.heroVisual{height:470px}.stats,.highlights{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){section{padding:64px 0}.topbar .in{justify-content:center}.hero{min-height:auto;padding:65px 0}.heroGrid{gap:30px}.heroVisual{height:390px}.hero h1{font-size:46px}.stats,.highlights,.grid,.gallery,.form{grid-template-columns:1fr}.form textarea,.full{grid-column:auto}.gallery img{height:260px}.sectionHead{display:block}.sectionHead p{margin-top:12px}.navin{height:70px}.nav .btn{padding:10px 14px;font-size:12px}}
 
+.logoIcon{width:58px;height:58px;border-radius:16px;background:#fff;display:grid;place-items:center;overflow:hidden;border:1px solid #f0d5bf;box-shadow:0 8px 24px rgba(31,17,8,.08)}
+.logoIcon img{width:92%;height:92%;object-fit:contain}
+.logoText{font-weight:800;line-height:1.05}
+.heroVisual{position:relative;overflow:hidden}
+.heroVisual>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:34px;filter:saturate(.96) contrast(1.02)}
+.heroVisual:after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(20,10,5,.08),rgba(232,117,36,.25))}
+.heroVisual .floating,.heroVisual .glass{z-index:2}
+.floatWA{font-family:Arial,sans-serif;text-decoration:none}
+.mapTitle{display:flex;justify-content:space-between;gap:15px;align-items:center;margin:0 0 10px;color:#6b584d;font-size:13px}.mapTitle strong{color:#170e0a;font-size:16px}@media(max-width:600px){.mapTitle{display:block}.mapTitle span{display:block;margin-top:4px}}</style>
+</head>
+<body>
+<div class="topbar"><div class="container in"><span>Advanced Hair Restoration • Aesthetic Skin Care</span><span>Rajamahendravaram • Open daily</span></div></div>
+
+<nav class="nav"><div class="container navin">
+<a href="#home" class="logo"><div class="logoIcon"><img src="logo.png" alt="Universal Bio Hair Transplantation"></div><div class="logoText">Universal Bio Hair Transplantation<small>Hair • Skin • Aesthetics</small></div></a>
+<div class="links"><a href="#home">Home</a><a href="#treatments">Treatments</a><a href="#results">Results</a><a href="#technology">Technology</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+<a class="btn" href="#contact">Book Consultation</a><button class="menu" aria-label="Menu">☰</button>
+</div></nav>
+
+<header class="hero" id="home"><div class="container heroGrid">
+<div><div class="eyebrow">Precision Hair Restoration & Skin Care</div><h1>Your journey to <em>confident hair</em> starts here.</h1><p>Personalised hair restoration, regenerative hair therapies and aesthetic skin care in a modern clinical environment.</p>
+<div class="actions"><a class="btn" href="https://wa.me/919550902361" target="_blank">WhatsApp Consultation</a><a class="btn light" href="#treatments">Explore Treatments</a></div>
+<div class="trust"><div><b>10+</b><span>Years experience*</span></div><div><b>5,000+</b><span>Procedures*</span></div><div><b>1:1</b><span>Consultation approach</span></div></div></div>
+<div class="heroVisual"><img src="image1.jpg" alt="Universal Bio Hair Transplantation treatment visual"><div class="floating">✦ Designed around you</div><div class="glass"><h3>A New Beginning For Your Hair.</h3><p>Personalised hair restoration and skin-care pathways in a modern clinical setting.</p></div></div>
+</div></header>
+
+<section id="about"><div class="container"><div class="sectionHead"><div><div class="kicker">The UBHT approach</div><h2>Modern care. Personal attention.</h2></div><p>We combine detailed assessment, treatment planning and aftercare education to create a clear patient journey from consultation to follow-up.</p></div>
+<div class="stats"><div class="stat"><b>10+</b>Years experience*</div><div class="stat"><b>5,000+</b>Procedures*</div><div class="stat"><b>1:1</b>Clinical consultation</div><div class="stat"><b>360°</b>Hair + skin care</div></div></div></section>
+
+<section class="dark"><div class="container"><div class="sectionHead"><div><div class="kicker">Home page highlights</div><h2>Signature hair solutions</h2></div><p>Short key points stay on the home page. Detailed treatment information appears in the dedicated sections below.</p></div>
+<div class="highlights"><div class="hcard"><span class="num">01</span><h3>FUE</h3><p>Individual follicular graft extraction and placement for natural-looking hair restoration.</p></div><div class="hcard"><span class="num">02</span><h3>PRF</h3><p>Platelet-rich fibrin based scalp therapy for selected hair-restoration plans.</p></div><div class="hcard"><span class="num">03</span><h3>BIO-PRP</h3><p>Platelet-based regenerative support personalised after clinical assessment.</p></div><div class="hcard"><span class="num">04</span><h3>GFC</h3><p>Growth-factor concentrate protocols used for selected hair-growth programs.</p></div></div></div></section>
+
+<section id="treatments"><div class="container"><div class="sectionHead"><div><div class="kicker">Treatments</div><h2>Hair & skin, under one roof.</h2></div><p>Each treatment should be selected after an appropriate consultation. Replace all demonstration images with your approved clinic photography.</p></div>
+<div class="grid">
+<script>
+const services=[
+["FUE Hair Transplantation","image2.jpg","Natural-looking graft placement","fue"],
+["PRP for Hair","image3.jpg","Platelet-based scalp therapy","prp"],
+["GFC for Hair","image4.jpg","Growth-factor based care","gfc"],
+["LLLT for Hair Fall","image5.jpg","Non-invasive light therapy","lllt"],
+["Dandruff Treatment","image6.jpg","Scalp health & flaking care","dandruff"],
+["Skin PRP for Face","image7.jpg","Skin texture & appearance","skinprp"],
+["Chemical Peel","image8.jpg","Acne & pigmentation protocols","peel"],
+["Medi-Facial","image9.jpg","Acne, pigmentation & glow","medifacial"],
+["Unwanted Hair Removal","image10.jpg","Long-term hair reduction","hairremoval"],
+["Face Mesotherapy","image11.jpg","Micro-injection skin protocols","meso"],
+["Radio Frequency for Face","image12.jpg","Texture & tightening protocols","rf"],
+["Acne Scar Treatment","image13.jpg","Scar-type based treatment","scars"]
+];
+document.write(services.map(s=>`<article class="service"><div class="photo" style="background-image:url('${s[1]}')"><span class="photoLabel">${s[0]}</span></div><div class="serviceBody"><h3>${s[0]}</h3><p>${s[2]}</p><a class="mini" href="#${s[3]}">View treatment details →</a></div></article>`).join(""));
+</script>
+</div></div></section>
+
+<section id="technology" class="dark"><div class="container"><div class="sectionHead"><div><div class="kicker">Technology & experience</div><h2>Designed for a clear patient journey.</h2></div><p>Use this section to showcase your actual equipment, clinic interiors, doctor/team and procedure environment.</p></div>
+<div class="gallery">
+<figure><img src="image14.jpg" alt="Clinic technology"><figcaption>Technology / equipment</figcaption></figure>
+<figure><img src="image15.jpg" alt="Clinic environment"><figcaption>Clinic environment</figcaption></figure>
+<figure><img src="image1.jpg" alt="Hair restoration"><figcaption>Hair restoration</figcaption></figure>
+<figure><img src="image2.jpg" alt="Hair treatment"><figcaption>Patient care</figcaption></figure>
+</div></div></section>
+
+<section id="results"><div class="container"><div class="sectionHead"><div><div class="kicker">Before & after</div><h2>Real results deserve real photographs.</h2></div><p>Use only genuine, consented patient photographs. Keep lighting, angle and distance consistent and identify the treatment interval where appropriate.</p></div>
+<div class="gallery">
+<figure><img src="image3.jpg" alt="PRP before and after"><figcaption>PRP for hair — before / after</figcaption></figure>
+<figure><img src="image4.jpg" alt="GFC before and after"><figcaption>GFC for hair — before / after</figcaption></figure>
+<figure><img src="image8.jpg" alt="Chemical peel result"><figcaption>Chemical peel — before / after</figcaption></figure>
+<figure><img src="image13.jpg" alt="Acne scar result"><figcaption>Acne scars — before / after</figcaption></figure>
+</div><p class="note">Images shown here are file references. Add your real patient images to the same folder using image1.jpg through image15.jpg.</p></div></section>
+
+<section><div class="container">
+
+<div id="fue" class="detailSection"><div class="sectionHead"><div><div class="kicker">01 • Hair restoration</div><h2>FUE Hair Transplantation</h2></div><p>FUE is a minimally invasive surgical hair-restoration technique, not a completely non-surgical procedure.</p></div><div class="detailGrid"><div class="detail"><h3>How it works</h3><ul><li>Assess donor density, scalp condition and recipient area.</li><li>Extract individual follicular units with specialised instruments.</li><li>Prepare and place grafts according to the planned hairline.</li><li>Growth develops gradually over the following months.</li></ul></div><div class="detail"><h3>Pre-care</h3><ul><li>Share medicines, supplements, allergies and medical history.</li><li>Follow the clinic's washing and medication instructions.</li><li>Avoid smoking/alcohol when advised around the procedure.</li><li>Do not apply unapproved scalp products before treatment.</li></ul></div><div class="detail"><h3>Post-care & safety</h3><ul><li>Follow washing and sleeping instructions.</li><li>Protect the recipient area from friction and sun.</li><li>Do not pick crusts or scratch the scalp.</li><li>Contact the clinic for fever, pus, spreading redness or unusual bleeding.</li></ul></div><div class="detail"><h3>Before / after</h3><p>Use image2.jpg as the approved FUE before/after image pair or replace it with your actual standardised clinical photographs.</p></div></div>
+<div class="diet"><h3>Hair-support diet chart</h3><table><tr><th>Meal</th><th>Example</th></tr><tr><td>Breakfast</td><td>Eggs/paneer + oats/whole grain + fruit</td></tr><tr><td>Lunch</td><td>Dal/lean protein + vegetables + rice/roti + curd</td></tr><tr><td>Snack</td><td>Fruit + nuts/seeds</td></tr><tr><td>Dinner</td><td>Protein + vegetables + whole grain</td></tr></table></div></div>
+
+<div id="prp" class="detailSection"><div class="sectionHead"><div><div class="kicker">02 • Hair therapy</div><h2>PRP for Hair</h2></div><p>PRP uses a patient's own blood, processed to concentrate platelets, then applied/injected according to the clinical protocol.</p></div><div class="detailGrid"><div class="detail"><h3>What to expect</h3><ul><li>Blood is collected and processed.</li><li>Prepared platelet-rich material is applied to selected scalp areas.</li><li>Multiple sessions may be recommended depending on the treatment plan.</li></ul></div><div class="detail"><h3>Safety & aftercare</h3><ul><li>Tell the clinician about medicines and blood-related conditions.</li><li>Mild tenderness or swelling may occur.</li><li>Follow washing and exercise instructions.</li><li>Seek review for severe pain or infection signs.</li></ul></div></div><div class="diet"><h3>Diet for hair-fall support</h3><table><tr><th>Focus</th><th>Foods</th></tr><tr><td>Protein</td><td>Eggs, fish, chicken, paneer, dal, beans</td></tr><tr><td>Iron</td><td>Leafy greens, legumes, meat, fortified foods</td></tr><tr><td>Healthy fats</td><td>Nuts, seeds, fish, avocado</td></tr><tr><td>Micronutrients</td><td>Fruits, vegetables, dairy or suitable alternatives</td></tr></table></div></div>
+
+<div id="gfc" class="detailSection"><div class="sectionHead"><div><div class="kicker">03 • Hair therapy</div><h2>GFC for Hair</h2></div><p>Growth-factor concentrate protocols vary. Suitability should be determined by a qualified clinician.</p></div><div class="detailGrid"><div class="detail"><h3>Before / after photography</h3><p>Show minimum-hair to fuller-hair photographs using the same angle, lighting and distance, with the treatment interval clearly stated.</p></div><div class="detail"><h3>Safety</h3><ul><li>Disclose allergies, medicines and active scalp disease.</li><li>Use sterile, approved materials.</li><li>Temporary injection-site tenderness may occur.</li><li>Report unusual reactions promptly.</li></ul></div></div><div class="diet"><h3>Diet for hair growth</h3><table><tr><th>Daily focus</th><th>Examples</th></tr><tr><td>Protein</td><td>Eggs, fish, pulses, soy, dairy</td></tr><tr><td>Vegetables</td><td>Spinach, carrots, peppers, broccoli</td></tr><tr><td>Fruits</td><td>Citrus, berries, guava, papaya</td></tr><tr><td>Hydration</td><td>Water regularly through the day</td></tr></table></div></div>
+
+<div id="lllt" class="detailSection"><div class="sectionHead"><div><div class="kicker">04 • Hair therapy</div><h2>LLLT for Hair Fall</h2></div><p>Low-level light therapy is a non-invasive option used in selected hair-loss management programs.</p></div><div class="detailGrid"><div class="detail"><h3>Safety instructions</h3><ul><li>Use the device exactly as directed.</li><li>Discuss photosensitising medicines or conditions.</li><li>Do not use over untreated lesions where contraindicated.</li><li>Stop and seek advice for significant irritation.</li></ul></div><div class="detail"><h3>Diet support</h3><ul><li>Prioritise adequate protein and varied whole foods.</li><li>Investigate suspected deficiencies with professional testing.</li><li>Avoid extreme crash diets.</li></ul></div></div></div>
+
+<div id="dandruff" class="detailSection"><div class="sectionHead"><div><div class="kicker">05 • Scalp health</div><h2>Dandruff Treatment</h2></div><p>Flaking can have different causes, so diagnosis helps select the appropriate scalp-care plan.</p></div><div class="detailGrid"><div class="detail"><h3>How to reduce dandruff</h3><ul><li>Wash regularly according to scalp type.</li><li>Use an appropriate anti-dandruff shampoo when advised.</li><li>Avoid scratching and sharing combs or towels.</li><li>Reduce heavy product buildup.</li></ul></div><div class="detail"><h3>Safety</h3><ul><li>Persistent redness, pain, crusting or hair loss needs review.</li><li>Avoid harsh home remedies on irritated skin.</li><li>Use image6.jpg for the approved before/after visual.</li></ul></div></div></div>
+
+<div id="skinprp" class="detailSection"><div class="sectionHead"><div><div class="kicker">06 • Facial aesthetics</div><h2>Skin PRP for Face</h2></div><p>Facial PRP uses prepared platelet-rich material according to a selected clinical protocol.</p></div><div class="detailGrid"><div class="detail"><h3>Potential goals</h3><ul><li>Support the appearance of skin texture and radiance.</li><li>Selected fine lines and uneven texture.</li><li>Gradual improvement rather than an instant transformation.</li></ul></div><div class="detail"><h3>Before / after</h3><p>Use image7.jpg or your actual consented facial before/after photos. Avoid filters and misleading edits.</p></div></div></div>
+
+<div id="peel" class="detailSection"><div class="sectionHead"><div><div class="kicker">07 • Resurfacing</div><h2>Chemical Peel for Acne & Pigmentation</h2></div><p>A controlled chemical exfoliation selected according to the skin concern, skin type and treatment depth.</p></div><div class="detailGrid"><div class="detail"><h3>Pre-care</h3><ul><li>Follow instructions about retinoids and exfoliants.</li><li>Disclose medicines and previous reactions.</li><li>Do not treat sunburned or severely irritated skin.</li></ul></div><div class="detail"><h3>Post-care</h3><ul><li>Use broad-spectrum sunscreen and gentle moisturiser.</li><li>Do not pick peeling skin.</li><li>Pause unapproved active products until recovery.</li><li>Report blistering, severe pain or swelling.</li></ul></div></div></div>
+
+<div id="medifacial" class="detailSection"><div class="sectionHead"><div><div class="kicker">08 • Skin wellness</div><h2>Medi-Facial</h2></div><p>Protocols can be tailored for acne, hyperpigmentation, back acne and skin glow goals.</p></div><div class="detailGrid"><div class="detail"><h3>Safety</h3><ul><li>Choose products according to sensitivity and diagnosis.</li><li>Avoid aggressive exfoliation on irritated skin.</li><li>Maintain sunscreen use.</li><li>Tell the provider about allergies and medications.</li></ul></div><div class="detail"><h3>Diet support</h3><ul><li>Eat varied fruits and vegetables.</li><li>Choose adequate protein and healthy fats.</li><li>Stay hydrated.</li><li>Limit foods that you know worsen your individual symptoms.</li></ul></div></div></div>
+
+<div id="hairremoval" class="detailSection"><div class="sectionHead"><div><div class="kicker">09 • Hair reduction</div><h2>Unwanted Hair Removal</h2></div><p>Long-term hair reduction may use laser/light-based technology or other clinician-selected methods.</p></div><div class="detailGrid"><div class="detail"><h3>Before / after</h3><p>Use image10.jpg for an approved before/after visual and state the treatment area, number of sessions and follow-up interval.</p></div><div class="detail"><h3>Safety</h3><ul><li>Disclose tanning, skin sensitivity and medicines.</li><li>Follow shaving and sun-avoidance instructions.</li><li>Temporary redness can occur.</li><li>Seek assessment for blistering, burns or persistent pigment change.</li></ul></div></div></div>
+
+<div id="meso" class="detailSection"><div class="sectionHead"><div><div class="kicker">10 • Skin treatment</div><h2>Face Mesotherapy</h2></div><p>Micro-injection protocols vary in ingredients and indication and should be clinician-selected.</p></div><div class="detailGrid"><div class="detail"><h3>Before / after</h3><p>Use image11.jpg for a genuine, consented photo pair. Match framing and lighting and state the treatment interval.</p></div><div class="detail"><h3>Safety precautions</h3><ul><li>Disclose allergies, medicines and active skin infection.</li><li>Use sterile, approved materials and trained practitioners.</li><li>Temporary redness, swelling or bruising can occur.</li><li>Seek care for worsening pain, fever, pus or spreading redness.</li></ul></div></div></div>
+
+<div id="rf" class="detailSection"><div class="sectionHead"><div><div class="kicker">11 • Skin tightening</div><h2>Radio Frequency for Face</h2></div><p>Controlled radio-frequency energy is used in selected skin-tightening and texture protocols.</p></div><div class="detailGrid"><div class="detail"><h3>Potential uses</h3><ul><li>Appearance of mild skin laxity.</li><li>Texture-focused treatment plans.</li><li>Gradual improvement may require multiple sessions.</li></ul></div><div class="detail"><h3>Safety precautions</h3><ul><li>Tell the provider about implants and active skin disease.</li><li>Follow device-specific pre/post-care.</li><li>Report excessive heat or pain immediately.</li><li>Use sun protection after treatment.</li></ul></div></div></div>
+
+<div id="scars" class="detailSection"><div class="sectionHead"><div><div class="kicker">12 • Scar management</div><h2>Acne Scar Treatment</h2></div><p>Scar type, skin tone and active acne are assessed before selecting a treatment approach.</p></div><div class="detailGrid"><div class="detail"><h3>Treatment planning</h3><ul><li>Assess scar type and active acne.</li><li>Select an appropriate procedure or combination where indicated.</li><li>Set realistic expectations; improvement is usually gradual.</li></ul></div><div class="detail"><h3>Safety precautions</h3><ul><li>Do not pick active acne or healing areas.</li><li>Use sun protection to reduce pigment-change risk.</li><li>Follow wound-care instructions after resurfacing.</li><li>Report infection, severe swelling or unexpected pigment change.</li></ul></div></div></div>
+
+</div></section>
+
+<section id="contact" class="contact"><div class="container"><div class="sectionHead"><div><div class="kicker">Visit the clinic</div><h2>Let's plan your next step.</h2></div><p>Call, WhatsApp or submit the consultation form. The phone, WhatsApp and location details below were cross-checked against a current public business listing; please confirm them with the clinic before launch.</p></div>
+<div class="contactGrid">
+<div class="contactCard"><h3>Universal Bio Hair Transplantation</h3><p>Hair restoration & skin care</p>
+<div class="contactLine"><b>Phone / WhatsApp</b><a href="tel:+919550902361">+91 95509 02361</a></div>
+<div class="contactLine"><b>Address</b>Venkat Plaza, D.No. 46-12-21/B,C, Opp. SKVT School, Danavai Peta, Rajamahendravaram</div>
+<div class="contactLine"><b>Hours</b>Mon–Fri 10:00 AM–7:30 PM<br>Sat–Sun 9:00 AM–8:00 PM</div>
+<div class="actions"><a class="btn" href="https://wa.me/919550902361" target="_blank">WhatsApp Now</a><a class="btn light" href="tel:+919550902361">Call Clinic</a></div>
+</div>
+<div><div class="mapTitle"><strong>Google Maps</strong><span>Venkat Plaza • Danavai Peta • Rajamahendravaram</span></div><iframe class="map" loading="lazy" src="https://www.google.com/maps?q=Venkat+Plaza,+D.No.+46-12-21%2FB%2CC,+Opp.+SKVT+School,+Danavai+Peta,+Rajamahendravaram&output=embed" title="Universal Bio Hair Transplantation location"></iframe>
+<form class="form" onsubmit="event.preventDefault();alert('Thank you. Connect this form to your clinic email, CRM or WhatsApp before publishing.');"><input required placeholder="Your name"><input required type="tel" placeholder="Phone number"><select><option>Hair consultation</option><option>Skin consultation</option><option>Hair + Skin consultation</option></select><input placeholder="Preferred date"><textarea placeholder="Briefly describe your concern"></textarea><button class="btn full" type="submit">Request Consultation</button></form></div>
+</div></div></section>
+
+<a class="floatWA" href="https://wa.me/919550902361" target="_blank" aria-label="WhatsApp">◔</a>
+<footer><div class="container foot"><div><b>Universal Bio Hair Transplantation</b><br>Rajamahendravaram • Hair & Skin Care</div><div>© 2026 UBHT. Verify contact details, statistics, treatment claims and patient-photo permissions before publishing.</div></div></footer>
+
+<script>
+const menu=document.querySelector('.menu'),links=document.querySelector('.links');
+menu.addEventListener('click',()=>{links.style.display=links.style.display==='flex'?'none':'flex';links.style.flexDirection='column';links.style.position='absolute';links.style.top='70px';links.style.right='4%';links.style.background='#fffaf5';links.style.padding='20px';links.style.border='1px solid #eaded3';links.style.borderRadius='18px';});
+</script>
+</body></html>
